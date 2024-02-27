@@ -1,0 +1,17 @@
+
+body {
+    /* prevents user from using the scroll */
+    overflow: hidden
+}
+
+Canvas {
+    
+/* POSITION ABSOLUTE to allow it to overlap with other elements */
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+/* send to back with the z-index property */
+    z-index: -1;
+}
